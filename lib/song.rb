@@ -1,5 +1,7 @@
 class Song 
   attr_accessor :nsme, :artist, :genre
   
-  @@count
+  @@count = 0 
+  
+  
 end
