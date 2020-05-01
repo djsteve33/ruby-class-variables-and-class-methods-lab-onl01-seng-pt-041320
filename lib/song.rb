@@ -21,8 +21,10 @@ class Song
   def genres 
    
   end 
-    
-    def artists
+  
+  def self.artists
+    @@artists.uniq
+  end
      
     end
 end
